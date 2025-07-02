@@ -1,6 +1,6 @@
 # Módulo 1 — Banco de Dados Iniciante — FDevs
 
-Neste repositório você vai encontrar os scripts das aulas de Banco de Dados Iniciante, junto com os desafios propostos pelo programa FDevs. <br><br>
+Neste repositório você vai encontrar os scripts das aulas de Banco de Dados Iniciante, junto com os desafios propostos pelo programa da trilha Back-End do FDevs. <br><br>
 Aqui, você encontra: 
 ```sql
 - `CREATE TABLE`: Criação de uma tabela em um Banco de Dados
