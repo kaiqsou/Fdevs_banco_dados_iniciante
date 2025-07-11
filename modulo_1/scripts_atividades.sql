@@ -26,18 +26,20 @@ SELECT * FROM produto;
 -- 3. Recupere os nomes e preços dos cinco produtos mais caros da tabela 'Loja.Produto'. Ordene os resultados em ordem decrescente
 -- a partir do preço de venda.
 
-INSERT INTO produto(id_produto, nome, valor_custo, preco_venda) VALUES(3, 'Computador', 1500, 2500);
-INSERT INTO produto(id_produto, nome, valor_custo, preco_venda) VALUES(4, 'Relógio', 250, 300);
-INSERT INTO produto(id_produto, nome, valor_custo, preco_venda) VALUES(5, 'Açúcar', 15, 25);
-INSERT INTO produto(id_produto, nome, valor_custo, preco_venda) VALUES(6, 'Teclado', 300, 360);
+INSERT INTO produto(id_produto, nome, valor_custo, preco_venda) VALUES
+	(3, 'Computador', 1500, 2500),
+	(4, 'Relógio', 250, 300),
+	(5, 'Açúcar', 15, 25),
+	(6, 'Teclado', 300, 360);
 
 SELECT TOP 5 nome, preco_venda FROM produto
 ORDER BY preco_venda DESC;
 
 -- 4. Escreva um comando SQL que exclua todos os produtos da tabela 'Loja.Produto' cujo preço de venda seja menor que o valor de custo
 
-INSERT INTO produto(id_produto, nome, valor_custo, preco_venda) VALUES (7, 'Mouse', 250, 100);
-INSERT INTO produto(id_produto, nome, valor_custo, preco_venda) VALUES (8, 'Celular', 1550, 1400);
+INSERT INTO produto(id_produto, nome, valor_custo, preco_venda) VALUES
+	(7, 'Mouse', 250, 100),
+	(8, 'Celular', 1550, 1400);
 
 SELECT * FROM produto;
 
